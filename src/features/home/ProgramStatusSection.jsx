@@ -1,0 +1,1 @@
+export function ProgramStatusSection(){return <section className="evidence-strip content-section"><p>PROGRAM STATUS</p><div><span>Interface</span><b>Interactive alpha</b></div><div><span>Hardware</span><b>Industrial design study</b></div><div><span>Testing</span><b>Protocol drafting</b></div><div><span>Regulatory</span><b>Not initiated</b></div></section>}
