@@ -1,0 +1,2 @@
+import { FieldPreview } from '../../components/visuals/FieldPreview'
+export function PlatformHero(){return <section className="inner-hero inner-hero--platform"><div><p>FIELD TAB / SOFTWARE PLATFORM</p><h1>One queue.<br/><em>Every patient.</em></h1><span>A local-first interface for tracking multiple casualty trends, reviewing priority changes and preserving an accountable event record.</span></div><FieldPreview/></section>}
