@@ -1,0 +1,3 @@
+import { SectionIntro } from '../../components/ui/SectionIntro'
+const steps=[['Pair','Scan or select the local node.'],['Identify','Assign a temporary field identifier.'],['Baseline','Observe initial signal quality and trends.'],['Watch','Add the patient to the shared priority queue.']]
+export function WorkflowSection(){return <section className="content-section platform-workflow" id="workflow"><SectionIntro index="01" eyebrow="Core workflow" title="From new node to active watch in four steps."/><div className="numbered-process">{steps.map((x,i)=><article key={x[0]}><b>{String(i+1).padStart(2,'0')}</b><h3>{x[0]}</h3><p>{x[1]}</p></article>)}</div></section>}
