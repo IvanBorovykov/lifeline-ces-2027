@@ -1,0 +1,4 @@
+import { CloudOff, Eye, History, SlidersHorizontal } from 'lucide-react'
+import { SectionIntro } from '../../components/ui/SectionIntro'
+const states=[[CloudOff,'External network unavailable','Core local functions remain active.'],[Eye,'Signal quality low','Value is visually suppressed; placement review requested.'],[History,'Sample is stale','Age remains attached to the last known observation.'],[SlidersHorizontal,'Rule changed','Revision and author appear in the event history.']]
+export function OperationalStatesSection(){return <section className="content-section feature-ledger" id="states"><SectionIntro index="03" eyebrow="Operational states" title="Designed for the data you do not have." body="A field interface needs a vocabulary for uncertainty. Each failure state is represented directly, with an action the operator can understand."/><div>{states.map(([Icon,title,body])=><article key={title}><Icon/><h3>{title}</h3><p>{body}</p></article>)}</div></section>}
