@@ -1,0 +1,17 @@
+/* IBM Carbon-aligned product tokens and flat surfaces. */
+.editorial-hero__object,.hardware-hero,.sequence-section,.exploded-section,.commit-map{background:var(--paper-2)}
+.object-caption,.object-index{display:none}
+.architecture-diagram{background:#262626}
+.field-preview{background:var(--paper);border-color:var(--ink-2);box-shadow:0 16px 32px rgba(0,0,0,.16)}
+.interface-section{background:var(--signal)}
+.product-tile,.rule-card,.patient-drawer{border-radius:0}
+.sensor-node{filter:drop-shadow(0 24px 24px rgba(0,0,0,.18))}
+.sensor-node__well i.active{box-shadow:none}
+.demo-shell-new{background:#161616}
+.demo-rail{background:#161616}
+.demo-topbar{background:#262626}
+.field-map,.network-canvas{background:#262626}
+.patient-row:hover{background:#262626}
+.architecture-diagram>svg{inset:0;width:100%;height:100%}
+.architecture-diagram>svg line,.network-canvas line{vector-effect:non-scaling-stroke;stroke:#525b53;stroke-width:1;stroke-dasharray:5 8}
+.network-canvas>svg{inset:0;width:100%;height:100%;display:block}
